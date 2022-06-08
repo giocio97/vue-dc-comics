@@ -1,21 +1,21 @@
 <template>
-<div>
-  <h1>questo è l'header </h1>
-</div>
+<footer>
+  <h2>questo è il footer </h2>
+</footer>
 </template>
 
 <script>
 export default {
-  name: 'MyHeader',
+  name: 'MyFooter',
  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h1 {
+h2 {
   margin: 40px 0 0;
-  color: blue;
+  color: rgb(64, 255, 0);
 }
 
 </style>

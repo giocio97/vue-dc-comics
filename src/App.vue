@@ -2,16 +2,24 @@
   <div id="app">
     
     <MyHeader/>
+    <main>
+      <MyCorpo/>
+    </main>
+    <MyFooter/>
   </div>
 </template>
 
 <script>
-import MyHeader from './components/myheader.vue'
+import MyHeader from './components/Myheader.vue'
+import MyFooter from './components/Myfooter.vue'
+import MyCorpo from './components/corpo.vue'
 
 export default {
   name: 'App',
   components: {
-    MyHeader
+    MyHeader,
+    MyFooter,
+    MyCorpo
   }
 }
 </script>

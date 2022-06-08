@@ -1,12 +1,12 @@
 <template>
-<div>
-  <h1>questo è l'header </h1>
-</div>
+<main>
+  <p>corpo centrale  </p>
+</main>
 </template>
 
 <script>
 export default {
-  name: 'MyHeader',
+  name: 'MyCorpo',
  
 }
 </script>
