@@ -1,7 +1,7 @@
 <template>
 <main>
  <div class="jumbo">
-<h2>Content goes here</h2>
+    <span>CURRENT SERIES</span>
  </div>
  <div class="prodotti">
      <div v-for="(linkMain,i) in linkMain" :key="i" class="prodotto">
@@ -59,14 +59,17 @@ main{
   
     .jumbo{
         width: 100%;
-        height: 10vh;
-        background-color: black;
+        height: 250px;
+       background-image: url(../assets/img/jumbotron.jpg);
+       background-size:  cover;
+    //    background-repeat: no-repeat;
          
-         h2 {
+         span {
            
-           text-align: left;
+          margin-top: -250px;
          margin-left: 100px;
-         padding: 20px;
+         padding: 10px;
+         background-color: #0282f9;
             color: rgb(255, 255, 255);
         }
            
