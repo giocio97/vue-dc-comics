@@ -82,12 +82,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 header {
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+
+  
 
   img{
-    display: block;
-    padding: 10px;
-    vertical-align:middle;
+    margin-bottom: 5px;
+    
+    
   }
   ul{
     list-style-type: none;
