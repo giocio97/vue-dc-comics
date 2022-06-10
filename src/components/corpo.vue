@@ -7,12 +7,12 @@
 <div class="card-container">
 
     <SerieDc v-for="(seriesDc, index) in seriesDc" :key="index" 
-    :details="serie"
+    :details="seriesDc"
     />
-    <!-- <div v-for="(seriesDc, index) in seriesDc" :key="index" class="card-serie">
+    <div v-for="(seriesDc, index) in seriesDc" :key="index" class="card-serie">
             <img :src="seriesDc.thumb" :alt="seriesDc.series">
             <h4>{{seriesDc.series}}</h4>
-    </div> -->
+    </div>
     
 </div>
 
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import SerieDc from './components/serie-dc.vue'
+import SerieDc from '@/components/serie-dc.vue'
 
 
 export default {
